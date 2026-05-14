@@ -19,7 +19,7 @@ const Projects = () => {
           <ProjectCard
             ttl={"My Portfolio"}
             newTxt={"New"}
-            live={"https://myportfolio-taupe-gamma.vercel.app/"}
+            live={"https://my-portfolio-ten-livid-88.vercel.app/"}
             git={"https://github.com/pialhasandev/My_Portfolio"}
             className={"h-52 sm:h-60 lg:h-64"}
             src={portfolio}

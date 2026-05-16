@@ -1,4 +1,4 @@
-import React from "react";
+
 import ProjectCard from "../common/ProjectCard";
 import Container from "../common/Container";
 import portfolio from "/src/assets/portfolio.png";

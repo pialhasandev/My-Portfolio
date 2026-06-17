@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Container from "../common/Container";
 import Flex from "../common/Flex";
 import { Link } from "react-router-dom";
@@ -9,11 +9,9 @@ const Header = () => {
 
   return (
     <div className="fixed top-0 left-0 w-full z-900 bg-linear-to-r from-white/10 via-white/5 to-white/10 backdrop-blur-lg border-b border-white/10 shadow-lg py-3">
-      
       <Container>
         {/* Added px-3 for mobile side spacing */}
         <Flex className="justify-between items-center px-3 sm:px-0">
-
           {/* LOGO */}
           <Link to="/">
             <svg
@@ -43,9 +41,7 @@ const Header = () => {
                 fontFamily="Playfair Display, serif"
                 fontWeight="700"
               >
-                <tspan fill="url(#gradientSecondary)">
-                  Pial Hasan
-                </tspan>
+                <tspan fill="url(#gradientSecondary)">Pial Hasan</tspan>
               </text>
             </svg>
           </Link>
@@ -114,7 +110,6 @@ const Header = () => {
               )}
             </button>
           </div>
-
         </Flex>
       </Container>
 
@@ -122,7 +117,6 @@ const Header = () => {
       {open && (
         <div className="md:hidden mt-3 px-4 pb-5">
           <div className="bg-black/40 backdrop-blur-md border border-white/10 rounded-xl py-5">
-
             <ul className="flex flex-col gap-4 text-center">
               <li>
                 <Link
@@ -175,7 +169,6 @@ const Header = () => {
                 <FiGithub className="text-2xl" />
               </a>
             </div>
-
           </div>
         </div>
       )}

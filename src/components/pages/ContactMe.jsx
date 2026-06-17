@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import  { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -36,7 +36,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section className="bg-bgclr pb-150 pt-30">
+    <section className="bg-bgclr pb-15 pt-30">
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 grid lg:grid-cols-2 gap-12">
         {/* LEFT SIDE */}
         <div>
@@ -145,7 +145,7 @@ const ContactMe = () => {
                 <PhoneInput.default
                   country={"bd"}
                   value={phone}
-                  onChange={(value, country) => {
+                  onChange={(value) => {
                     setPhone(value.startsWith("+") ? value : "+" + value);
                   }}
                   enableSearch={true}

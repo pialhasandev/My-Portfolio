@@ -3,7 +3,7 @@ import ProjectCard from "../common/ProjectCard";
 import Container from "../common/Container";
 import portfolio from "/src/assets/portfolio.png";
 import orebi from "/src/assets/orebi.png";
-import inDMarket from "/src/assets/innovate-D-Market.png";
+import jhphoto from "/src/assets/jhphoto.png";
 
 const Projects = () => {
   return (
@@ -16,6 +16,15 @@ const Projects = () => {
 
         {/* Added left-right space */}
         <div className="flex flex-wrap items-center justify-center gap-6 px-3 sm:px-5">
+          <ProjectCard
+            ttl={"JH Photography"}
+            live={"https://jh-photography.vercel.app/"}
+            git={"https://github.com/pialhasandev/jh_photography"}
+            className={"h-52 sm:h-60 lg:h-64"}
+            src={jhphoto}
+            newTxt={"New"}
+            alt={"jh Photography"}
+          />
           <ProjectCard
             ttl={"My Portfolio"}
             newTxt={"New"}
@@ -36,15 +45,7 @@ const Projects = () => {
             alt={"Orebi Preview"}
           />
 
-          <ProjectCard
-            ttl={"Innovate Digital Marketing"}
-            live={"https://react-routing01-01-c774.vercel.app/"}
-            git={"https://github.com/pialhasandev/Innovate-Salon"}
-            className={"h-52 sm:h-60 lg:h-64"}
-            src={inDMarket}
-            newTxt={"New"}
-            alt={"Innovate D-Marketing Preview"}
-          />
+          
         </div>
       </Container>
     </div>

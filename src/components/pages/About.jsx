@@ -1,4 +1,4 @@
-import React from "react";
+
 import Container from "../common/Container";
 import { FiCheckSquare } from "react-icons/fi";
 import Flex from "../common/Flex";
@@ -17,7 +17,6 @@ import {
   SiRedux,
   SiNextdotjs,
   SiTailwindcss,
-  SiPostman,
   SiChakraui,
   SiMui,
 } from "react-icons/si";

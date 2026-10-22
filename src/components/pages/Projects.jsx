@@ -2,7 +2,7 @@
 import ProjectCard from "../common/ProjectCard";
 import Container from "../common/Container";
 import portfolio from "/src/assets/portfolio.png";
-import orebi from "/src/assets/orebi.png";
+import tiger from "/src/assets/tiger.png";
 import jhphoto from "/src/assets/jhphoto.png";
 
 const Projects = () => {
@@ -36,12 +36,12 @@ const Projects = () => {
           />
 
           <ProjectCard
-            ttl={"Orebi E-Commerce"}
+            ttl={"Tiger Supplier"}
             newTxt={"New"}
-            live={"https://orebi-liard.vercel.app/"}
-            git={"https://github.com/pialhasandev/Orebi-E-Commerce"}
+            live={"https://tiger-supplier.vercel.app/"}
+            git={"https://github.com/pialhasandev/tiger_supplier"}
             className={"h-52 sm:h-60 lg:h-64"}
-            src={orebi}
+            src={tiger}
             alt={"Orebi Preview"}
           />
 

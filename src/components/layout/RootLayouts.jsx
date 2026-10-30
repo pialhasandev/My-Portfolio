@@ -3,6 +3,7 @@ import Header from './Header'
 import { Outlet } from 'react-router-dom'
 import Footer from './Footer'
 import ScrollToTopBtn from './ScrollToTopBtn'
+import WhatsAppPopup from './WhatsAppPopup'
 
 const RootLayouts = () => {
   return (
@@ -10,6 +11,7 @@ const RootLayouts = () => {
     <Header/>
     <Outlet/>
     <Footer/>
+    <WhatsAppPopup/>
     <ScrollToTopBtn/>
     </>
   )

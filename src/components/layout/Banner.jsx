@@ -126,15 +126,16 @@ const Banner = () => {
               {"\n  "}
               location:{" "}
               <span className="text-green-400">
-                'Azimpur, Dhaka, Bangladesh'
+                'Dhanmondi-32, Dhaka, Bangladesh'
               </span>
               ,{"\n  "}
               skills: [{"\n    "}
               <span className="text-green-400">'React'</span>,{" "}
-              <span className="text-green-400">'JavaScript'</span>,{" "}
-              <span className="text-green-400">'Tailwind CSS'</span>,{"\n    "}
-              <span className="text-green-400">'Redux Toolkit'</span>,{" "}
-              <span className="text-green-400">'Next.js'</span>
+              <span className="text-green-400">'Next.js'</span>,{" "}
+              <span className="text-green-400">'JavaScript'</span>,{"\n    "}
+              <span className="text-green-400">'Tailwind CSS'</span>,{" "}
+              <span className="text-green-400">'REST API'</span>
+              
               {"\n  "}],
               {"\n  "}
               hireable: <span className="text-yellow-400 ">true</span>

@@ -3,7 +3,8 @@ import Container from "../common/Container";
 import Flex from "../common/Flex";
 import { Link } from "react-router-dom";
 import { FiGithub, FiMenu, FiX } from "react-icons/fi";
-
+import logo from "/src/assets/logo.png";
+import Image from "../common/Image";
 const Header = () => {
   const [open, setOpen] = useState(false);
 
@@ -13,37 +14,12 @@ const Header = () => {
         {/* Added px-3 for mobile side spacing */}
         <Flex className="justify-between items-center px-3 sm:px-0">
           {/* LOGO */}
-          <Link to="/">
-            <svg
-              className="w-32 sm:w-40 md:w-44 lg:w-50 h-10 sm:h-12 lg:h-13"
-              viewBox="0 0 200 50"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <linearGradient
-                  id="gradientSecondary"
-                  x1="0%"
-                  y1="0%"
-                  x2="100%"
-                  y2="0%"
-                >
-                  <stop offset="0%" stopColor="#22D3EE" />
-                  <stop offset="100%" stopColor="#3B82F6" />
-                </linearGradient>
-              </defs>
-
-              <text
-                x="100"
-                y="32"
-                textAnchor="middle"
-                fontSize="20"
-                fontFamily="Playfair Display, serif"
-                fontWeight="700"
-              >
-                <tspan fill="url(#gradientSecondary)">Pial Hasan</tspan>
-              </text>
-            </svg>
+          <Link to="/" className="shrink-0">
+            <img
+              src={logo}
+              alt="Pial Hasan Logo"
+              className="w-12 h-12 md:w-14 md:h-14 object-contain rounded-full"
+            />
           </Link>
 
           {/* DESKTOP MENU */}

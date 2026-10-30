@@ -38,11 +38,11 @@ const Projects = () => {
           <ProjectCard
             ttl={"Tiger Supplier"}
             newTxt={"New"}
-            live={"https://tiger-supplier.vercel.app/"}
+            live={"https://www.tigersupplier.com/"}
             git={"https://github.com/pialhasandev/tiger_supplier"}
             className={"h-52 sm:h-60 lg:h-64"}
             src={tiger}
-            alt={"Orebi Preview"}
+            alt={"Tiger Supplier Preview"}
           />
 
           
